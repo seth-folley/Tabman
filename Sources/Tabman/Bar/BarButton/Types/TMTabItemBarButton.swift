@@ -26,7 +26,7 @@ open class TMTabItemBarButton: TMBarButton {
     
     private let container = UIView()
     private let label = AnimateableLabel()
-    private let imageView = UIImageView()
+    public let imageView = UIImageView()
     
     private var imageWidth: NSLayoutConstraint!
     private var imageHeight: NSLayoutConstraint!
